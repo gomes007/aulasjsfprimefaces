@@ -24,7 +24,7 @@ import br.com.framework.implementacao.crud.VariavelConexaoUtil;
  */
 
 @ApplicationScoped
-public class HibertaneUtil implements Serializable {
+public class HibernateUtil implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
