@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
-//import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
@@ -26,8 +25,7 @@ import br.com.framework.hibernate.session.HibernateUtil;
 import br.com.framework.utils.UtilFramework;
 import br.com.project.listener.ContextLoaderListenerCaixakiUtils;
 import br.com.project.model.classes.Entidade;
-//import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
-//import jakarta.servlet.annotation.WebFilter;
+
 
 
 @WebFilter(filterName="conexaoFilter")
